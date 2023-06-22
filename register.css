@@ -1,0 +1,24 @@
+body {
+    background-color: whitesmoke;
+    padding: 4% 17%;
+  }
+
+  .form-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4% 14%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .button-container {
+    width: fit-content;
+    margin: 0 auto 15px auto;
+  }
+
+  .form__button {
+    margin: 0 auto;
+  }
+
+  .form__text {
+    text-align: center;
+  }

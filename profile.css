@@ -1,0 +1,115 @@
+/* NavBar */
+body {
+    background-color: lightgrey !important;
+    margin-top: 20px;
+}
+
+#navbar {
+    border: 2px solid white;
+    background-color: gray;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+.dropdown-menu {
+    background-color: gray;
+}
+
+
+.nav-item a {
+    color: white;
+
+}
+
+.nav-item a:hover {
+    background: rgba(82, 82, 82, 0.646);
+    color: orange;
+    transition: .5s;
+}
+
+.active {
+    color: orange !important;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    transform: translateY(-50%);
+}
+/* Sidebar */
+.main {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.sidebar a {
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: whitesmoke;
+}
+.profile-img{
+    border-radius: 15px;
+}
+.sidebar-content{
+    margin-top: 50px;
+}
+/* Pending Appointment */
+.ap-title,
+.h-title {
+    text-align: center;
+}
+
+.unpending-table,
+.history-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unpending-table thead tr,
+.history-table thead tr {
+    text-align: left;
+    font-weight: bold;
+}
+
+.unpending-table thead th,
+.unpending-table tbody td,
+.history-table thead th,
+.history-table tbody td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.unpending-table tbody tr,
+.history-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+

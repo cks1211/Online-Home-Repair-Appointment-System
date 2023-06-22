@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 9% 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#login-page .form-container {
+    background-color: rgb(169, 169, 169);
+    width: 40%;
+    border-radius: 15px;
+    margin: 0 auto;
+    height: 380px;
+    padding: 7% 3% 0 3%;
+}
+
+.log-in-page-img {
+    height: 100px;
+    width: 100px;
+}
+
+.title h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}

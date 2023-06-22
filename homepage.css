@@ -1,0 +1,437 @@
+/* NavBar */
+body{
+    background-color: black;
+}
+#navbar {
+    border: 2px solid white;
+    background-color: gray;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+.dropdown-menu {
+    background-color: gray;
+}
+
+
+.nav-item a {
+    color: white;
+
+}
+
+.nav-item a:hover {
+    background: rgba(82, 82, 82, 0.646);
+    color: orange;
+    transition: .5s;
+}
+
+.active {
+    color: orange !important;
+}
+
+/* ***************************************************************** */
+/* Section 1(begin) */
+#begin-sec {
+    margin-bottom: 10px;
+    color: white;
+}
+
+#begin-sec .body-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.285)), url(picture/background\(section1\).png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+#begin-sec h1 {
+    font-size: 400%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    width: fit-content;
+    font-family: 'Cinzel', serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fade-in-out {
+    animation: fade-in-out 2s ease-in-out;
+}
+
+@keyframes fade-in-out {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#begin-sec a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+#begin-sec .header-icon {
+    text-align: center;
+    margin-top: 150px;
+    transition: .3s;
+}
+
+#begin-sec .header-icon:hover {
+    transform: scale(1.3);
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-main {
+    margin-top: 60px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    transform: translateY(-50%);
+}
+/* About Us */
+#about-us {
+    background-color: whitesmoke;
+    color: white;
+    line-height: 1.7;
+    height: 500px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#about-us .about-us-content {
+    padding: 50px 20px 70px 40px;
+    margin-right: 10% !important;
+    text-align: justify;
+    line-height: 1.5;
+    margin: auto;
+    font-size: 1.5rem;
+    transform: translateX(-40px);
+}
+
+#about-us .about-us-img {
+    border: 5px solid white;
+    border-radius: 60%;
+    transform: translateX(-120px);
+}
+
+/* ************************************************************** */
+/* Feature */
+#feature {
+    height: 100%;
+    width: 100%;
+    background: white;
+    margin-bottom: 10px;
+}
+
+#feature .fea-icon {
+    margin-bottom: 30px;
+}
+#feature .body-content {
+    padding: 4% 14%;
+}
+
+#feature h1 {
+    text-align: center;
+    color: black;
+}
+
+#feature hr {
+    width: 15%;
+    margin: 10px auto 0 auto;
+    color: black;
+}
+
+.wrapper {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.feature-list {
+    list-style-type: none;
+}
+
+.feature-f-content {
+    text-align: center;
+}
+
+.down-box{
+    margin-top: 10px;
+}
+.hidden-content {
+    display: none;
+}
+
+.feature-f-content:hover .hidden-content {
+    display: block;
+    animation: fade-in-out 0.5s ease-in-out;
+}
+
+.fea-box {
+    height: 200px;
+}
+/* ********************************************************************* */
+/* Download App */
+#download-app{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 2% 14%;
+}
+#download-app hr {
+    width: 30%;
+    margin: 10px auto 0 auto;
+    color: black;
+}
+.row{
+    margin-top: 50px;
+}
+.downloadapp-icon{
+    width: 150px;
+    height: auto;
+}
+
+.download-img-container {
+    transform: translate(10%,-7%);
+}
+
+.dowenloadapp-content {
+    transform: translate(-10%,11%);
+}
+/* ******************************************************************* */
+/* Our Team */
+#our-team {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://as2.ftcdn.net/v2/jpg/04/65/81/67/1000_F_465816712_bJPZ9ahoO71J0H2SLxBCWHN3LxyHMwIf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+    color: black;
+    height: 700px;
+    padding-top: 2%;
+}
+#our-team .row {
+    transform: translateY(-27%);
+}
+
+.team-title {
+    color: white;
+}
+
+#our-team hr {
+    width: 15%;
+    margin: 10px auto 0 auto;
+    color: white;
+}
+
+#our-team .card-content {
+    padding: 1% 14%;
+}
+
+#our-team .col-lg-4 {
+    transform: translateY(-1%);
+}
+
+#our-team .card-text2 {
+    text-align: center;
+}
+
+#our-team .member-img {
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translateY(35%);
+    border: 5px solid white;
+}
+
+#our-team .card-content {
+    background-color: rgb(207, 207, 207);
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 100px 15px 40px 15px;
+    border: 4px solid white;
+    height: 430px;
+    line-height: 1.5;
+}
+
+#our-team .team-icon {
+    margin: 0 15px;
+    margin-top: 70px;
+}
+ /* ******************************************************* */ 
+/* Appointment */
+#appointment{
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 7% 14%;
+    font-size: 1.2rem;
+}
+
+#appointment h1 {
+    text-align: center;
+}
+
+#appointment hr {
+    width: 35%;
+    margin: 10px auto;
+}
+
+#appointment p {
+    margin-top: 50px;
+    text-align: justify;
+
+}
+#appointment label, #appointment input {
+    margin-bottom: 7px;
+}
+#appointment form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ******************************************************** */
+/* Review */
+#review {
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding: 2% 14%;
+}
+
+#reviews .review-body-content {
+    padding: 3% 14%;
+}
+
+#reviews hr {
+    width: 25%;
+    margin: 0 auto 300px auto;
+}
+
+#reviews .control-icon {
+    color: black;
+}
+
+#reviews .carousel-indicators {
+    background-color: black;
+    width: 15%;
+    margin: 0 auto;
+    border-radius: 15px;
+    transform: translateY(-250%);
+}
+
+#our-review .review-container {
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px black;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#our-review .review-content2 {
+    margin-bottom: 15px;
+}
+
+#our-review .user-image {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    z-index: 1;
+    border: solid 5px orange;
+}
+
+#our-review .user-content {
+    padding: 0 10% 0 10%;
+    height: 300px;
+}
+
+#our-review p {
+    font-size: 1.5rem;
+    transform: translateY(-5 0%);
+    color: black;
+}
+
+#our-review cite {
+    font-size: 1.20rem;
+    display: inline-block;
+    margin: 30px;
+}
+.rw-button{
+    background-color: black;
+}
+/* **************************************************** */
+/* FAQ */
+#faq {
+    background-color: whitesmoke;
+    padding: 4% 14%;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#faq h1 {
+    text-align: center;
+}
+
+#faq hr {
+    width: 15%;
+    margin: 10px auto 0 auto;
+}
+
+#faq .faq-content {
+    margin: 30px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ****************************************************** */
+/* contact us */
+#contact-us {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#contact-us h1 {
+    text-align: center;
+}
+
+#contact-us hr {
+    width: 25%;
+    margin: 10px auto 0 auto;
+    color: black;
+}
+
+.contact-container{
+    border-radius: 15px;
+    padding: 2% 5%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#contact-us iframe {
+    transform: translateX(20%);
+}
+
